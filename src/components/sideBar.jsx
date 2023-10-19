@@ -4,7 +4,7 @@ import { BrowserRouter, Link, NavLink } from 'react-router-dom'
 const SideBar = () => (
     <div className='nav-bar'>
             <Link className='logo' to='/'>
-                <img className='sub-logo' src={''} alt="Steve Loew" />
+                <Icon className='sub-logo' src={'user'} alt="Steve Loew" />
             </Link>
         <nav>
             <NavLink exact='true' className={({isActive}) => isActive ? 'active' : ''} to='/'>
